@@ -5,92 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 
-    <style>
-        body {
-            background-color: black;
-        }
-
-        div#box {
-            width: 400px;
-            height: 400px;
-            border-radius: 50%;
-            background-image: url(https://avatars.githubusercontent.com/u/124717378?v=4);
-            animation: move 3s infinite alternate ease-in-out;
-            position: relative;
-        }
-
-        @keyframes move {
-            from {
-                top: 0px
-            }
-
-            to {
-                top: 50px;
-            }
-
-            0% {
-                offset-distance: 0%;
-            }
-
-            100% {
-                offset-distance: 100%;
-            }
-        }
-
-        .center {
-            margin: auto;
-            width: 50%;
-            border: 3px solid green;
-            padding: 10px;
-        }
-
-        body h1#nome {
-            color: white;
-        }
-
-        body p#texto {
-            color: white;
-        }
-
-        nav#menu-container {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-        section#logo {
-            font-size: 30px;
-            color: white;
-        }
-
-        section#menu ul {
-            list-style: none;
-            display: flex;
-            padding: 10px;
-            margin: 10px;
-            align-items: center;
-            justify-content: space-between;
-            color: white;
-        }
-        main#principal {
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            color: white;
-        }
-
-        section#container {
-            background-color: darkslategrey;
-        }
-
-        ul#barra {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-    </style>
 </head>
 
 <body>
@@ -120,11 +37,17 @@
     </section>
 
 
-    <h1 id="nome">Tales Paiva Calvi</h1>
+    <section id="presentation">
+        <p id="hello">I am</p>
 
-    <p id="texto">Hello, i am a Web Developer</p>
+        <h1 id="first-name">Tales <span id="nome"> Paiva Calvi</span></h1>
+        
 
-    <div id="box" .center></div>
+        <p id="texto">And i am a Web Developer</p>
+
+        <div id="box" .center></div>
+        
+    </section>
 
 </body>
 
