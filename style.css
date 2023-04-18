@@ -9,7 +9,7 @@ body {
     background-color: black;
 }
 
-#presentation {
+#home {
     display: inline-block;
     margin-left: 1300px;
     margin-top: 180px;
@@ -101,9 +101,31 @@ section#container {
     background-color: darkred;
 }
 
-ul#barra li {
+ul#barra li a {
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
     padding-right: 200px;
+    text-decoration: none;
+    color: white;
+}
+
+section#about {
+    background-color: white;
+    height: 800px;
+}
+
+section#services {
+    background-color: yellow;
+    height: 800px;
+}
+
+section#portfolio {
+    background-color: brown;
+    height: 800px;
+}
+
+section#contact {
+    background-color: blue;
+    height: 800px;
 }
