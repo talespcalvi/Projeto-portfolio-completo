@@ -10,10 +10,79 @@ body {
 }
 
 #home {
+    /*border: 2px solid green;*/
     display: inline-block;
     margin-left: 1300px;
     margin-top: 180px;
+    height: 800px;
 }
+
+#b {
+    /*border: 2px solid yellow;*/
+    width: 60%;
+    padding: 60px;
+}
+
+#icons {
+    /*border: 2px solid white;*/
+    width: 40%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: -700px;
+    left: 0;
+    margin-left: 60px;
+}
+
+.icons {
+    /*border: 2px solid white;*/
+    width: 60px;
+    justify-content: center;
+    margin-right: 10px;   
+    display: flex;
+    align-items: center;
+    flex-direction: column;                          
+}
+
+#c form{
+    /*border: 2px solid white;*/
+    width: 380px;
+    max-width: 100%;
+    position: absolute;
+    bottom: 0;
+    position: relative;
+    top: -700px;
+    padding-left: 100px;
+}
+
+#c form input:first-child {
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border-radius: 30px;
+    outline: none;
+}
+
+#c form input:last-child {
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: #590000;
+    color: white;
+    box-shadow: 0px 0px 15px #858585;
+    right: 6px;
+    top: 6px;
+}
+
+#botao {
+    display: flex;
+}
+
 
 div#box {
     width: 400px;
@@ -54,7 +123,7 @@ div#box {
 }
 
 #first-name {
-    color: darkred;
+    color: #590000;
     font-size: 50px;
     
 }
@@ -98,7 +167,7 @@ main#principal {
 }
 
 section#container {
-    background-color: darkred;
+    background-color: #590000;
 }
 
 ul#barra li a {
@@ -108,6 +177,12 @@ ul#barra li a {
     padding-right: 200px;
     text-decoration: none;
     color: white;
+    transition-duration: 0.5s;
+}
+
+ul#barra li a:hover {
+    transform: scale(1.0);
+    color: darkred;
 }
 
 section#about {
