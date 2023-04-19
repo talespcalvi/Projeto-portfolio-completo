@@ -3,10 +3,16 @@
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
+    scroll-behavior: smooth;
 }
 
 body {
     background-color: black;
+}
+
+section#main {
+    border: 2px solid red;
+    height: 900px;
 }
 
 #home {
@@ -95,7 +101,7 @@ div#box {
 
 @keyframes move {
     from {
-        top: 0px
+        top: 20px
     }
 
     to {
@@ -186,21 +192,47 @@ ul#barra li a:hover {
 }
 
 section#about {
+    border: 2px solid red;
     background-color: white;
-    height: 800px;
+    height: 1000px;
 }
 
-section#services {
-    background-color: yellow;
+div#foto {
+    border: 2px solid black;
+    width: 500px;
     height: 800px;
+    display: inline-block;
+    margin: 100px;
+    border-radius: 20px;
+    margin-left: 120px;
+}
+
+div#texto {
+    border: 2px solid black;
+    width: 500px;
+    height: 800px;
+    display: inline-block;
+    margin: 100px;
+    border-radius: 20px;
+    margin-left: 500px;
+    background-color: #590000;
+}
+
+
+section#services {
+    border: 2px solid red;
+    background-color: yellow;
+    height: 1000px;
 }
 
 section#portfolio {
-    background-color: brown;
-    height: 800px;
+    border: 2px solid red;
+    background-color: green;
+    height: 1000px;
 }
 
 section#contact {
+    border: 2px solid red;
     background-color: blue;
-    height: 800px;
+    height: 1000px;
 }
