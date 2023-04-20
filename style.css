@@ -54,52 +54,54 @@ div#box {
 
 #b {
     /*border: 2px solid yellow;*/
-    width: 600px;
-    height: 250px;
-    margin-top: -350px;
+    width: 830px;
+    height: 450px;
+    margin-top: -420px;
     margin-left: 100px;
 }
 
 section#presentation {
     /*border: 2px solid slateblue;*/
-    width: 400px;
+    width: 700px;
     margin-left: 100px;
 }
 
 #hello {
     color: white;
+    font-size: 40px;
 }
 
 #first-name {
     color: #590000;
-    font-size: 50px;
+    font-size: 100px;
     
 }
 
 #nome {
     color: white;
-    font-size: 50px;
+    font-size: 100px;
 
 }
 
 body p#texto {
     color: white;
+    font-size: 40px;
 }
 
 #icons {
-    /*border: 2px solid white;*/
-    width: 40%;
-    padding: 15px;
+    /*border: 2px solid red;*/
+    width: 60%;
+    padding: 20px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-left: 150px;
+    margin-left: 180px;
 }
 
 .icons {
-    /*border: 2px solid white;*/
-    width: 60px;
-    justify-content: space-evenly;  
+    /*border: 2px solid green;*/
+    width: 80px;
+    justify-content: space-evenly;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -113,12 +115,13 @@ body p#texto {
 
 #c form{
     /*border: 2px solid white;*/
-    width: 380px;
+    width: 600px;
+    height: 70px;
     max-width: 100%;
     position: absolute;
     bottom: 0;
     position: relative;
-    margin-left: 100px;
+    margin-left: 140px;
 }
 
 #c form input:first-child {
@@ -133,7 +136,7 @@ body p#texto {
     position: absolute;
     display: inline-block;
     outline: none;
-    padding: 10px 30px;
+    padding: 20px 30px;
     border: none;
     border-radius: 30px;
     background-color: #590000;
