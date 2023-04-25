@@ -16,6 +16,10 @@ section#main {
     /*border: 2px solid red;*/
     height: 900px;
     background-color: black;
+    /*background-image: url(foot.jpeg);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center center;*/
 }
 
 #photo {
@@ -25,7 +29,6 @@ section#main {
     margin-top: 180px;
     height: 450px;
 }
-
 
 div#box {
     width: 400px;
