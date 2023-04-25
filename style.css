@@ -158,7 +158,7 @@ body span#texxto {
     right: 6px;
     top: 6px;
     border: 2px solid transparent;
-    transition: 0.5s
+    transition: 0.5s;
 }
 
 #c form input:last-child:hover {
@@ -294,6 +294,7 @@ div#right p {
     margin-top: 0px;
     border-radius: 30px;
     transition: .4s;
+    box-shadow: 0 0 16px #590000;
 }
 
 .button:hover {
@@ -391,6 +392,7 @@ section#services {
     margin-top: 30px;
     border-radius: 40px;
     transition: .4s;
+    box-shadow: 0 0 16px #590000;
 }
 
 .btn:hover {
@@ -463,53 +465,53 @@ section#portfolio {
     transform: scale(1.1);
 }
 
-.overlay {
-    border-radius: 20px;
+.coluna .overlay {
     position: absolute;
-    width: 400px;
-    height: 250px;
-    background: linear-gradient(#191919, #590000);
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(89,0,0,0.9037990196078431) 9%, rgba(89,0,0,0.6685049019607843) 48%, rgba(189,208,212,0) 94%);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
     transform: translateY(100%);
-    transition: transform 0.3s ease-in-out;
-    opacity: 1;
-    transition: opacity 0.3s ease;
+    transition: .5s ease;
 }
 
-.overlay:hover {
-    transform: translateY(50%);
-    opacity: 1;
+.coluna:hover .overlay {
+    transform: translateY(0%);
 }
 
 .overlay h4 {
+    font-size: 30px;
+    margin-top: 15px;
     color: white;
-    font-size: 2rem;
 }
 
 .overlay p {
+    font-size: 15px;
+    line-height: 23px;
+    margin: 30px;
     color: white;
-    font-size: 1rem;
-    margin: .3rem 0 1rem;
 }
 
 .overlay a {
-    color: white;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 3rem;
-    height: 3rem;
-    background: white;
+    width: 50px;
+    height: 50px;
+    background-color: white;
     border-radius: 50%;
+    text-decoration: none;
 }
 
 .overlay a i {
+    font-size: 30px;
     color: black;
-    font-size: 1.5rem;
 }
 
 section#contact {
